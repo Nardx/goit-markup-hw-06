@@ -770,7 +770,7 @@ body {
 }
 
 .modal-close-btn:hover {
-  fill: #188ce8;
+  fill: var(--hover-color);
 }
 
 .modal-form {
@@ -783,13 +783,13 @@ body {
   font-size: 20px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
   margin-bottom: 20px;
 }
 
 .modal-form-field {
   padding-bottom: 10px;
-  color: #757575;
+  color: var(--accent-color3);
 }
 
 .modal-form-input-wrapper {
@@ -866,14 +866,14 @@ body {
 }
 
 .modal-form-policy-link {
-  color: #2196f3;
+  color: var(--accent-color2);
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
   background-image: url('../images/iconcheck.svg');
   background-position: center;
-  background-color: #2196f3;
-  border: 1px solid #2196f3;
+  background-color: var(--accent-color2);
+  border: 1px solid var(--accent-color2);
 }
 
 .visually-hidden {
