@@ -6,7 +6,7 @@
   --hover-color: #2196f3;
   --title-color: #212121;
   --subtitle-color: #757575;
-  --hero-button-color: #188ce8;
+  --button-color: #188ce8;
   --background-color: #faf4f4;
   --background-footer: #2f303a;
   --team-list-background-color: #ffffff;
@@ -212,7 +212,7 @@ body {
 
 .hero-section-button:hover,
 .hero-section-button:focus {
-  background-color: #188ce8;
+  background-color: var(--button-color);
   color: var(--accent-color4);
 }
 
@@ -525,7 +525,7 @@ body {
   line-height: 1.14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--accent-color4);
   margin-bottom: 20px;
 }
 
@@ -539,6 +539,11 @@ body {
   border-radius: 4px;
   outline: none;
   margin-right: 12px;
+  padding-left: 16px;
+}
+
+.footer-form-input:focus {
+  border-color: var(--hover-color);
 }
 
 .e-mail-form-wrapper {
@@ -565,7 +570,7 @@ body {
 
 .footer-form-btn:hover,
 .footer-form-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--button-color);
   color: var(--accent-color4);
 }
 
@@ -807,12 +812,12 @@ body {
 }
 
 .modal-form-input:focus {
-  border-color: #188ce8;
+  border-color: var(--hover-color);
   outline: none;
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  fill: #188ce8;
+  fill: var(--hover-color);
 }
 
 .modal-form-massage {
@@ -826,7 +831,7 @@ body {
 }
 
 .modal-form-massage:focus {
-  border-color: #188ce8;
+  border-color: var(--hover-color);
   outline: none;
 }
 
@@ -886,6 +891,6 @@ body {
 
 .modal-form-btn:hover,
 .modal-form-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--button-color);
   color: var(--accent-color4);
 }
