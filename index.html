@@ -329,7 +329,7 @@
         </div>
       </section>
 
-      <!----------------------------------- Regular customers ---------------------->
+      <!-- Regular customers -->
 
       <section class="section">
         <div class="container">
@@ -382,7 +382,7 @@
       </section>
     </main>
 
-    <!------------------------------Footer section------------------------->
+    <!--Footer section-->
     <footer class="footer-section">
       <div class="footer-section-container container">
         <div class="footer-address-container">
@@ -408,7 +408,7 @@
           </ul>
         </div>
         <div class="footer-social-container">
-          <!-------------------------------Joinsection-->
+          <!--Joinsection-->
           <h2 class="social-title">Присоеденяйтесь</h2>
           <ul class="social-list list">
             <li class="join-social-item">
@@ -442,22 +442,24 @@
           </ul>
         </div>
         <div class="e-mail-container">
-          <form action="#">
-            <h2 class="e-mail-section-title">Подпишитесь на рассылку</h2>
-            <label for="">
-              <input type="mail" class="footer-form-input" placeholder="E-mail" />
-            </label>
-            <button type="submit" class="footer-form-btn">
-              <p>Подписаться</p>
-              <svg class="e-mail-section-icon">
-                <use href="../images/sprite.svg#icon-send"></use>
-              </svg>
-            </button>
+          <h2 class="e-mail-section-title">Подпишитесь на рассылку</h2>
+          <form action="#" class="e-mail-form">
+            <div class="e-mail-form-wrapper">
+              <label>
+                <input type="email" class="footer-form-input" placeholder="E-mail" />
+              </label>
+              <button type="submit" class="footer-form-btn">
+                Подписаться
+                <svg class="e-mail-section-icon">
+                  <use href="../images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
-    <!--------------------MODAL SECTION--------------------------->
+    <!--MODAL SECTION-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -495,7 +497,7 @@
           <label class="modal-form-field">
             Почта
             <span class="modal-form-input-wrapper">
-              <input type="mail" name="user-mail" class="modal-form-input" required />
+              <input type="email" name="user-mail" class="modal-form-input" required />
               <svg class="modal-form-icon">
                 <use href="./images/sprite.svg#icon-mail-form"></use>
               </svg>
