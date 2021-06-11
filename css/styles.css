@@ -769,6 +769,10 @@ body {
   height: 11px;
 }
 
+.modal-close-btn:hover {
+  fill: #188ce8;
+}
+
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -777,7 +781,6 @@ body {
 .modal-form-head {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -786,6 +789,7 @@ body {
 
 .modal-form-field {
   padding-bottom: 10px;
+  color: #757575;
 }
 
 .modal-form-input-wrapper {
@@ -846,6 +850,7 @@ body {
   width: 16px;
   height: 15px;
   border: 1px solid #212121;
+  border-radius: 2px;
   cursor: pointer;
   margin-right: 7px;
 }
@@ -857,8 +862,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.modal-form-policy-link {
+  color: #2196f3;
+}
+
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
   background-image: url('../images/iconcheck.svg');
+  background-position: center;
+  background-color: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .visually-hidden {
